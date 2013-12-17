@@ -1,0 +1,85 @@
+<!--@author Sonali--> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title><%= @title %></title>
+	<%= stylesheet_link_tag    "application", :media => "all" %>
+  	<%= javascript_include_tag "application" %>
+  	
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+
+ <body>
+	<div id="wrap">
+	<table border="1">
+		
+										
+								
+		<div id="left_div">
+    
+	      	<ul>
+				<li><a href="main.erb">Home</a></li>
+				<li><a href="about.erb">Log Out</a></li>
+			</ul>
+			</br></br></br>
+       
+         </div></br>
+         <center><b>Commit Bid</b></center>
+         <div id="main"> 
+         <tr>
+         	
+ 	 		<a name="TemplateInfo" href="main.erb">main Page</a>
+ 	 	    <a  href="editgoods.erb">  Edit  </a>
+           	<a href="">Delete  </a>
+			<a href="/createServices.erb">CreateServices</a></br>
+		</tr>
+		
+		<%= form_tag({:controller => "goods", :action => "bidGoodSuccessful"}, :method => "get") do %>
+		<tr>		
+			
+			        	 	
+	        	 	
+	        	 	
+	        	 	<td>name:</td>
+	        	 	<td><%= text_field_tag(:name ,@name)%></td>
+	        	 	<td>description:</td>
+	        	 	<td><%= text_area_tag(:description ,@description)%> </td>
+	        	 	 <td>createrEmail:</td>
+	        	 	<td><%= text_field_tag(:createrEmail ,@createrEmail)%></td>
+	        	 	<td>status:</td>
+	        	 	<td><%= text_field_tag(:status ,@status)%></td>	
+	        	 	<td>serviceId:</td>
+	        	 	<td><%= text_field_tag(:goodId ,@goodId)%></td>        	 	 
+	        	 	
+	      
+		   		   			
+	      </tr>
+	      <tr>
+	      			<td>bidderEmail:</td>
+	        		 <td><%= text_field_tag(:bidderEmail)%></td>
+	        	 	<td>BidderComments:</td>
+	        	 	<td><%= text_area_tag(:comment)%> </td>
+	      </tr>
+		  <tr>
+		    <td>
+         		<%= submit_tag("CommitBid") %>
+				<% end %>  
+          	</td>
+          	
+	       </tr>  
+	 
+	</table>
+  
+  </div>  
+
+    </br>
+
+ <div id="footer_div"> 
+ 	 	
+		<h4>Copyright 2012. All rights reserved.</h4>
+		<a href="about.erb">Help</a>
+ 
+ </div>
+	</div>
+</body>
+</html>

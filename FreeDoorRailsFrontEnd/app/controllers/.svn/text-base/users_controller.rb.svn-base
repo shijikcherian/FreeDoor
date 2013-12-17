@@ -1,0 +1,41 @@
+
+class UsersController < ApplicationController
+  
+  attr_accessor :URL
+ 
+  def initialize() 
+ @URL = "http://localhost:8080/scribesfreedoor" 
+ end
+ 
+ def createUser
+   
+end
+
+def createdUser
+    @fname = params[:fname]
+    @lname = params[:lname]
+    @password = params[:password]
+    @email= params[:email]  
+    @roleName = params[:roleName]  
+    rtn1 = RestClient.post("#@URL/users",{:fname => @fname, :lname => @lname, :password => @password, :email => @email, :roleName => @roleName}.to_json,:content_type => :json, :accept => :json)
+  puts @rtn1 
+end
+
+  def users
+     @title = "Users"
+    
+    rtn=RestClient.get("#@URL/users",:content_type => :json)
+     result = ActiveSupport::JSON.decode(rtn)
+   @return = result 
+    
+  end
+   
+ def main
+   
+ end
+
+  def validate
+   #@email = 'sonali'  
+ end
+ 
+end

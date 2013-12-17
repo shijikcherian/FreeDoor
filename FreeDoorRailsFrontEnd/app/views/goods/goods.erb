@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title><%= @title %></title>
+<%= stylesheet_link_tag    "application", :media => "all" %>
+  	<%= javascript_include_tag "application" %>
+  	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+</head>
+<body>  
+ 	<div id="wrap">
+ 
+ 
+      	<ul>
+		<li><a href="user.erb">Home</a></li>
+		<li><a href="goods.erb">Goods</a></li>
+		<li><a href="../services.erb">Services</a></li>	
+		<li><a href="welcome.erb">LogOut</a></li>	
+		
+		</ul>
+		</br>
+       
+      </div></br>
+   
+ 
+ 	 <div id="main"> 
+ 	 		
+ 	 	   </br>
+			<a href="/createGood.erb">CreateGoods</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="/searchgood.erb">Search good</a>
+			
+			</br>
+	
+	
+	<table border="1">
+	
+		<tr>
+			<td><strong> Good Name </strong></td>				
+			<td><strong> Description</strong></td> 
+			<td><strong> Creater Email</strong></td> 
+			<td><strong>Status</strong></td>
+			<td><strong>GoodId</strong></td>
+
+			
+		</tr>
+		
+		<% for good in @return %>
+			<tr>
+	
+				<td> <%= link_to good['name'],{:controller => "goods" , :action => "editGoods" ,:description => good['description'],:name => good['name'],:createrEmail => good['createrEmail'],:status => good['status'],:goodId => good['goodId']}%> </td> 
+				
+				
+				<td><%= good['description'] %> </td> 
+				<td><%= good['createrEmail'] %> </td> 
+				<td><%= good['status'] %> </td> 
+				<td><%= good['goodId'] %> </td> 
+				
+				 
+			
+           </tr>
+    
+	
+		<% end %>
+		
+	</table>
+
+	  
+  
+  
+    </div>
+    </br>
+
+ <div id="footer_div"> 
+ 	 	
+	<h4>Copyright 2012. All rights reserved.</h4>
+	<a href="about.erb">Help</a>
+ 
+    </div>
+	</div>
+     	</body>
+</html>

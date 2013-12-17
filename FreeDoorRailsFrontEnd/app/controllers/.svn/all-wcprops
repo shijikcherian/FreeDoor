@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/62/trunk/FreeDoorRailsFrontEnd/app/controllers
+END
+services_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/61/trunk/FreeDoorRailsFrontEnd/app/controllers/services_controller.rb
+END
+application_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/FreeDoorRailsFrontEnd/app/controllers/application_controller.rb
+END
+goods_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/62/trunk/FreeDoorRailsFrontEnd/app/controllers/goods_controller.rb
+END
+users_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/49/trunk/FreeDoorRailsFrontEnd/app/controllers/users_controller.rb
+END

@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title><%= @title %></title>
+	<%= stylesheet_link_tag    "application", :media => "all" %>
+  	<%= javascript_include_tag "application" %>
+  	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+
+</head>
+<body>
+	<div id="wrap">
+ 
+ 	<form method="get" class="scribes1" action="http://localhost:8080/scribesfreedoor/message/about ">
+      <div id="top_div">
+     <h1>Scribes Community	Welcomes you</h1> 
+      </div>
+       </form>
+ 	
+      <div id="left_div"style="float: left;">
+       	  
+      </div>
+      <div id="right_div" style="" >
+      	<center>
+      	 <table>
+	   <%= form_tag({:controller => "users", :action => "user"}, :method => "get") do %>
+	   <tr><td><p><font size="2" face="verdana" color="blue"><%=label_tag(:userName, "User Name:") %></font></td>
+       <td><%= text_field_tag(:userName) %></tr>
+	   <tr><td><p><font size="2" face="verdana" color="blue"><%=label_tag(:password1, "Password:") %></font></td>
+	   <td><%= password_field_tag(:password1)%></p></td><tr>
+	   	<td>&nbsp;&nbsp;&nbsp;<%= submit_tag("Login") %><% end %>
+    	</td>
+		</tr>
+		</table>
+		<h3> New User?Sign up here</h3>
+		 &nbsp&nbsp&nbsp<%= link_to "Sign Up",{:controller => "users" , :action => "createUser"} %>
+	      </div>
+     </div>
+		</center>
+      	</div>
+      	
+   
+ 	</br>
+ 	 <div id="footer_div"> 
+ 	 	
+	<h4>Copyright 2012. All rights reserved.</h4>
+	<a href="about.erb">Help</a>
+ 	<a href="mailto:esonali@gmail.com?Subject=Hello%20I%20have%20a%20query">Send Mail</a>
+    </div>
+    
+ 	</div>
+ 	</body>
+</html>

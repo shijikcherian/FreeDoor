@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/67/trunk/FreeDoorRailsFrontEnd/app/views/goods
+END
+createGood.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/26/trunk/FreeDoorRailsFrontEnd/app/views/goods/createGood.erb
+END
+main.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/59/trunk/FreeDoorRailsFrontEnd/app/views/goods/main.erb
+END
+gbids.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/67/trunk/FreeDoorRailsFrontEnd/app/views/goods/gbids.erb
+END
+deletedGoods.erb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/65/trunk/FreeDoorRailsFrontEnd/app/views/goods/deletedGoods.erb
+END
+register.erb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/59/trunk/FreeDoorRailsFrontEnd/app/views/goods/register.erb
+END
+createGoodBid.erb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/64/trunk/FreeDoorRailsFrontEnd/app/views/goods/createGoodBid.erb
+END
+searchgood.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/31/trunk/FreeDoorRailsFrontEnd/app/views/goods/searchgood.erb
+END
+goodSearch.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/37/trunk/FreeDoorRailsFrontEnd/app/views/goods/goodSearch.erb
+END
+createdGood.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/27/trunk/FreeDoorRailsFrontEnd/app/views/goods/createdGood.erb
+END
+searchResult.erb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/38/trunk/FreeDoorRailsFrontEnd/app/views/goods/searchResult.erb
+END
+editGoods.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/59/trunk/FreeDoorRailsFrontEnd/app/views/goods/editGoods.erb
+END
+about.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/57/trunk/FreeDoorRailsFrontEnd/app/views/goods/about.erb
+END
+editedGoods.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/59/trunk/FreeDoorRailsFrontEnd/app/views/goods/editedGoods.erb
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/FreeDoorRailsFrontEnd/app/views/goods/.gitignore
+END
+editgBids.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/66/trunk/FreeDoorRailsFrontEnd/app/views/goods/editgBids.erb
+END
+bidGoodSuccessful.erb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/63/trunk/FreeDoorRailsFrontEnd/app/views/goods/bidGoodSuccessful.erb
+END
+goods.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/59/trunk/FreeDoorRailsFrontEnd/app/views/goods/goods.erb
+END

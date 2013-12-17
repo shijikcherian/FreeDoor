@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/71/trunk/FreeDoorRailsFrontEnd/app/views/services
+END
+searchServiceResult.erb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/51/trunk/FreeDoorRailsFrontEnd/app/views/services/searchServiceResult.erb
+END
+createServices.erb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/51/trunk/FreeDoorRailsFrontEnd/app/views/services/createServices.erb
+END
+searchService.erb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/51/trunk/FreeDoorRailsFrontEnd/app/views/services/searchService.erb
+END
+services.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/51/trunk/FreeDoorRailsFrontEnd/app/views/services/services.erb
+END
+editSearchServices.erb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/51/trunk/FreeDoorRailsFrontEnd/app/views/services/editSearchServices.erb
+END
+editBids.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/70/trunk/FreeDoorRailsFrontEnd/app/views/services/editBids.erb
+END
+editServiceBids.erb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/51/trunk/FreeDoorRailsFrontEnd/app/views/services/editServiceBids.erb
+END
+BidServiceSuccessful.erb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/51/trunk/FreeDoorRailsFrontEnd/app/views/services/BidServiceSuccessful.erb
+END
+createServiceBid.erb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/51/trunk/FreeDoorRailsFrontEnd/app/views/services/createServiceBid.erb
+END
+createdServices.erb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/51/trunk/FreeDoorRailsFrontEnd/app/views/services/createdServices.erb
+END
+bids.erb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/68/trunk/FreeDoorRailsFrontEnd/app/views/services/bids.erb
+END
+deletedServices.erb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/69/trunk/FreeDoorRailsFrontEnd/app/views/services/deletedServices.erb
+END
+editedServices.erb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/51/trunk/FreeDoorRailsFrontEnd/app/views/services/editedServices.erb
+END
+editServices.erb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/71/trunk/FreeDoorRailsFrontEnd/app/views/services/editServices.erb
+END

@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title><%= @title %></title>
+<%= stylesheet_link_tag    "application", :media => "all" %>
+  	<%= javascript_include_tag "application" %>
+  	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+</head>
+<body>  
+ 	<div id="wrap">
+ 
+ 	<form method="get" class="scribes1" action="http://localhost:8080/scribesfreedoor/message/about ">
+ 		 </form>
+      <div id="left_div">
+    
+      	<ul>
+	
+		<li><a href="user.erb">Home</a></li>
+		<li><a href="goods.erb">Goods</a></li>
+		<li><a href="services.erb">Services</a></li>	
+		<li><a href="welcome.erb">LogOut</a></li>	
+		</ul>
+		
+		</br>
+     
+      </div></br>
+   
+ 
+ 	 <div id="main"> 
+ 	 	
+ 	 	   </br>
+ 	 	   </br>
+			<a href="/createServices.erb">CreateServices</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			
+			
+			</br>
+	
+</br>
+	<table border="1">
+	
+		<tr>
+			<td><strong> Service Name </strong></td>				
+			<td><strong> Description</strong></td> 
+			<td><strong> Creater Email</strong></td> 
+			<td><strong>Status</strong></td>
+			<td><strong>ServiceId</strong></td>
+
+			
+		</tr>
+		
+		<% for service in @return %>
+			<tr>
+	
+				<td> <%= link_to service['name'],{:controller => "services" , :action => "editServices" ,:description => service['description'],:name => service['name'],:createrEmail => service['createrEmail'],:status => service['status'],:serviceId => service['serviceId']}%> </td> 
+				
+				<td><%= service['description'] %> </td> 
+				<td><%= service['createrEmail'] %> </td> 
+				<td><%= service['status'] %> </td> 
+				<td><%= service['serviceId'] %> </td> 
+				
+				 
+			
+           </tr>
+    
+	
+		<% end %>
+		
+	</table>
+
+	  
+  
+  
+    </div>
+    </br>
+
+ <div id="footer_div"> 
+ 	 	
+	<h4>Copyright 2012. All rights reserved.</h4>
+	<a href="about.erb">Help</a>
+ 
+    </div>
+	</div>
+     	</body>
+</html>

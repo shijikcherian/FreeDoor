@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title><%= @title %></title>
+	<%= stylesheet_link_tag    "application", :media => "all" %>
+  	<%= javascript_include_tag "application" %>
+  	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+
+</head>
+<body>
+	<div id="wrap">
+		
+
+ 		<div id="left_div">
+    
+      	<ul>
+	
+		<li><a href="../welcome.erb">Main</a></li>
+		</ul>
+		</br>
+        </div></br>
+     
+    
+    <div id="main"> 
+	 
+		<table width="100%">
+		   
+		      <tr>
+		        <td ><span style="font-family: arial,verdana; font-size: 10pt;"><h3>Please fill out the form below to register </h3><br />
+		            <br />
+		            
+		            <div>
+		           <%= form_tag({:controller => "users", :action => "createdUser"}, :method => "get") do %>				
+		                <table cellspacing="1" cellpadding="3" border="0">
+		                 
+		                  <tr>
+		                      <td ><%=label_tag(:emailId,"email")%></td>
+		                      <td>
+		                       <%= text_field_tag(:emailId)%></td>
+		                    </tr>
+		                    
+		                     <tr>
+		                      <td><%=label_tag(:password,"Pwd")%></td>
+		                      <td>
+		                        <%= text_field_tag(:password)%></td>
+		                    </tr>
+		                    <tr>
+		                      <td ><%=label_tag(:firstName,"First name")%></td>
+		                      <td>
+		                       <%= text_field_tag(:firstName)%></td>
+		                    </tr>
+		                    <tr>
+		                      <td><%=label_tag(:lastName,"Last name")%></td>
+		                      <td>
+		                        <%= text_field_tag(:lastName)%></td>
+		                    </tr>
+		                   
+		                    	                   
+		                   
+		                    <tr>
+		                      <td ><%=label_tag(:role,"Role Name")%></td>
+		                      <td>
+		                        <%= text_field_tag(:role)%></td>
+		                    </tr>
+		                   
+		                    <tr>
+		                      <td></td>
+		                      <td>
+		                   <%= submit_tag("Submit") %>
+						<% end %>
+		                    </tr>
+		               
+		                </table>
+		                	
+		                	
+
+		              </div></span></td>
+		      </tr>
+		  
+		  </table>
+		  
+		  
+		 
+		  
+	  	<div id="footer_div"> 
+ 	 	
+	<h4>Copyright 2012. All rights reserved.</h4>
+	<a href="about.erb">Help</a>
+ 	<a href="mailto:esonali@gmail.com?Subject=Hello%20I%20have%20a%20query">Send Mail</a>
+    </div>
+    </div>
+  </body>
+</html>

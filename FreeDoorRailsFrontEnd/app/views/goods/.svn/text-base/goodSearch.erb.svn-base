@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title><%= @title %></title>
+<%= stylesheet_link_tag    "application", :media => "all" %>
+  	<%= javascript_include_tag "application" %>
+  	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+
+</head>
+<body>
+	 
+	<div id="wrap">
+ 
+ 	
+      <div id="left_div">
+    
+      	<ul>
+		<li><a href="main.erb">Home</a></li>
+		<li><a href="about.erb">About</a></li>
+		</ul>
+		</br>
+   
+  
+      </div></br>
+   
+ 	
+ 
+ 	 <div id="main"> <a name="TemplateInfo" href="main.erb">main Page</a>
+	
+	<h3>Search good</h3>
+		<table width="100%">							
+	   <%= form_tag({:controller => "goods", :action => "searchResult"}, :method => "get") do %>		
+										
+						<tr>
+					<td width="20%"><p>
+					<%= label_tag(:name, "SearchKeyword:") %></p>
+					</td>
+					<td width="70%">
+					<%= text_field_tag(:name)%></p>
+					
+					</td>
+          </tr>
+					</tr>
+          	<tr><td> <p>        
+         	<%= submit_tag("Search") %></p>
+						<% end %>
+          </td>
+					</tr>
+					</table>
+	
+	
+	
+  <%= @body %>
+  
+  
+  
+    </div>
+    </br>
+
+ <div id="footer_div"> 
+ 	 	
+	<h4>Copyright 2012. All rights reserved.</h4>
+	<a href="about.erb">Help</a>
+ 
+    </div>
+	</div>
+     	</body>
+</html>

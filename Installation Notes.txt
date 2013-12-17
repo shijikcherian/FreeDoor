@@ -1,0 +1,45 @@
+
+Team Scribes - Freedoor scribes project
+
+System Requirements
+
+Jdk version	- JDK1.7
+Database	- mongo-2.9.1
+Server	        - apache-tomcat-6.0.36
+Build Tool	- apache-ant-1.8.4
+Rails Front End	- rubygems1.8.24, ruby 1.9.3
+RESTful Service - apache-wink-1.2.0-incubating
+IDE	        - Eclipse Indigo SR2 version
+
+
+After installing all the software, go to the source folder.
+In eclipse, import the FreeDoorRailsFrontEnd and FreeDoorScribesProject folders
+
+After importing FreeDoorScribesProject  there will be error due to the following jars files missing in  the build path. So please add the following jar files to the build path 
+
+Add the jars from the lib folder of the project to the build path
+jaxrs-api-2.2.1.GA.jar 
+json related jars,
+mongo-2.9.1 jar,
+jackson-all-1.8.5.jar
+
+
+Go to build.xml and change the required path for tomcat and apache wink
+
+After that build the war file by giving the -  ant deploy
+
+Run all the servers required in the different console terminal
+Tomcat
+Rails server by giving rails server 
+Mongo DB - first mongod.exe and then mongo.exe
+
+In mongo.exe terminal running, give - use scribesdb  in order to create the database
+
+Go to the browser and run http://localhost:3000/welcome to see the welcome page of our application and log-in to check more functionalites such as goods, services and their related funtions
+
+
+
+
+
+ 
+

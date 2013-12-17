@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title><%= @title %></title>
+<%= stylesheet_link_tag    "application", :media => "all" %>
+  	<%= javascript_include_tag "application" %>
+  	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+
+</head>
+<body>
+	 
+<body>
+<div id="wrap">
+ 
+ 	<form method="get" class="scribes1" action="http://localhost:8080/scribesfreedoor/message/about ">
+      <div id="left_div">
+    
+      	<ul>
+		<li><a href="main.erb">Home</a></li>
+		<li><a href="about.erb">About</a></li>
+		<a href="services.erb">Services</a>
+		</ul>
+		</br>
+        <input type="text" name="goodsDescSearch" class="textbox" />
+        <input type="submit" name="search" class="button" value="Search" />
+  
+      </div></br>
+    </form>
+ 	
+ 
+ 	 <div id="main"> <a name="TemplateInfo" href="main.erb">main Page</a>
+	
+	<h3>Create a new service</h3>
+		<table width="100%">							
+	    <%= form_tag({:controller => "services", :action => "createdServices"}, :method => "get") do %>						
+		<tr><td><%=label_tag(:name, "Service Name:") %></td>
+        <td> <%= text_field_tag(:name) %> <br>
+        </tr><tr></tr>				
+	    <tr><td><%=label_tag(:description, "Description:") %></td>
+        <td><%= text_area_tag(:description)%> <br>
+        </tr><tr></tr>
+		<tr><td><%= label_tag(:status, "Status") %></td>
+        <td><%= text_field_tag(:status)%><br>
+		
+        </tr><tr></tr>
+        
+         <tr><td><%=label_tag(:createrEmail, "Created By:") %></td>
+        <td><%= text_field_tag(:createrEmail)%> <br>
+        </tr><tr></tr>
+		<tr><td>
+         	<%= submit_tag("Submit") %>
+						<% end %>
+          </td>
+					</tr>
+					</table>
+	
+	
+	
+  <%= @body %>
+  
+  
+  
+    </div>
+    </br>
+
+ <div id="footer_div"> 
+ 	 	
+	<h4>Copyright 2012. All rights reserved.</h4>
+	<a href="about.erb">Help</a>
+ 
+    </div>
+	</div>
+     	</body>
+</html>

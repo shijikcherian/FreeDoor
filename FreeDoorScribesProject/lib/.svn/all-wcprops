@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/129/trunk/FreeDoorScribesProject/lib
+END
+json-rpc-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/129/trunk/FreeDoorScribesProject/lib/json-rpc-1.0.jar
+END
+wink-server-1.2.0-incubating.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/104/trunk/FreeDoorScribesProject/lib/wink-server-1.2.0-incubating.jar
+END
+mongo-2.9.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/114/trunk/FreeDoorScribesProject/lib/mongo-2.9.1.jar
+END
+wink-1.2.0-incubating.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/104/trunk/FreeDoorScribesProject/lib/wink-1.2.0-incubating.jar
+END
+json-jena-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/129/trunk/FreeDoorScribesProject/lib/json-jena-1.0.jar
+END
+json-20070829.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/129/trunk/FreeDoorScribesProject/lib/json-20070829.jar
+END
+jackson-all-1.8.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/129/trunk/FreeDoorScribesProject/lib/jackson-all-1.8.5.jar
+END
+json-lib-0.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/129/trunk/FreeDoorScribesProject/lib/json-lib-0.8.jar
+END
+jaxrs-api-2.2.1.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/156/trunk/FreeDoorScribesProject/lib/jaxrs-api-2.2.1.GA.jar
+END
+wink-common-1.2.0-incubating.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/104/trunk/FreeDoorScribesProject/lib/wink-common-1.2.0-incubating.jar
+END
+wink-client-1.2.0-incubating.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/104/trunk/FreeDoorScribesProject/lib/wink-client-1.2.0-incubating.jar
+END

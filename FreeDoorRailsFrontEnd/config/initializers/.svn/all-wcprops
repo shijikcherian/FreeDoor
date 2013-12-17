@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/trunk/FreeDoorRailsFrontEnd/config/initializers
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/FreeDoorRailsFrontEnd/config/initializers/mime_types.rb
+END
+secret_token.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/FreeDoorRailsFrontEnd/config/initializers/secret_token.rb
+END
+session_store.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/FreeDoorRailsFrontEnd/config/initializers/session_store.rb
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/FreeDoorRailsFrontEnd/config/initializers/inflections.rb
+END
+backtrace_silencers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/trunk/FreeDoorRailsFrontEnd/config/initializers/backtrace_silencers.rb
+END
+wrap_parameters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/FreeDoorRailsFrontEnd/config/initializers/wrap_parameters.rb
+END

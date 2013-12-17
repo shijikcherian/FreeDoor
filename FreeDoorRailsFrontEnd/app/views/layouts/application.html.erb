@@ -1,0 +1,19 @@
+<html>
+  <head>
+
+  
+  </head>
+  <body>
+ <%= @greeting %>
+ <% @greeting = capture do %>
+  Welcome to my shiny new web page!  The date and time is
+  <% Time.now %>
+<% end %>
+  </body>
+
+
+</html>
+
+
+
+

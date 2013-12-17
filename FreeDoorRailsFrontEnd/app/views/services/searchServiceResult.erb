@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title><%= @title %></title>
+<%= stylesheet_link_tag    "application", :media => "all" %>
+  	<%= javascript_include_tag "application" %>
+  	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<li><a href="user.erb">Home</a></li>
+		<li><a href="goods.erb">Goods</a></li>
+		<li><a href="services.erb">Services</a></li>	
+		<li><a href="welcome.erb">LogOut</a></li>	
+</head>
+<body>
+
+		
+			<tr>
+	<% for service in @return %>
+			<tr>
+			<td> <%= link_to service['name'],{:controller => "services" , :action => "editSearchServices" ,:description => service['description'],:name => service['name'],:createrEmail => service['createrEmail'],:status => service['status']}%> </td> 
+			<td> <%= service['name'] %> </td> 
+			<td><%= service['description'] %> </td> 
+			<td><%= service['createrEmail'] %>  </td> 
+			<td><%= service['status'] %> </td> 
+			
+      </tr>
+			<% end %>
+			
+           </tr>
+    
+	
+		
+	
+	
+  
+  
+  	</table>
+  
+  </div>  
+
+    </br>
+
+ <div id="footer_div"> 
+ 	 	
+		<h4>Copyright 2012. All rights reserved.</h4>
+		<a href="about.erb">Help</a>
+ 
+ </div>
+	</div>
+</body>
+</html>

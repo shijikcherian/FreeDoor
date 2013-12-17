@@ -1,0 +1,111 @@
+<!--@author Sonali--> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title><%= @title %></title>
+<%= stylesheet_link_tag    "application", :media => "all" %>
+  	<%= javascript_include_tag "application" %>
+  	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+
+</head>
+<body>
+	<div id="wrap">
+ 
+ 		<div id="left_div">
+    
+      	<ul>
+		<li><a href="main.erb">Home</a></li>
+		<li><a href="about.erb">About</a></li>
+		</ul>
+		</br>
+        </div></br>
+		<table width="100%">
+		    <tbody>
+		      <tr>
+		        <td ><span style="font-family: arial,verdana; font-size: 10pt;">Please fill out the form below to register <br />
+		            <br />
+		            
+		            <div>
+		              <form method="post" action="">
+		             
+		                <table cellspacing="1" cellpadding="3" border="0">
+		                  <tbody>
+		                    <tr>
+		                      <td>Username:</td>
+		                      <td>
+		                        <input type="text"name="username" /></td>
+		                    </tr>
+		                    <tr>
+		                      <td>Password</td>
+		                      <td>
+		                        <input type="text" name="password" /></td>
+		                    </tr>
+		                    <tr>
+		                      <td >Renter password</td>
+		                      <td>
+		                        <input type="text" name="password2" /></td>
+		                    </tr>
+		                    <tr>
+		                      <td >First name:</td>
+		                      <td>
+		                        <input type="text" name="fname" value="" /></td>
+		                    </tr>
+		                    <tr>
+		                      <td>Your Last name:</td>
+		                      <td>
+		                        <input type="text" name="lname" value="" /></td>
+		                    </tr>
+		                    <tr>
+		                      <td >email:</td>
+		                      <td>
+		                        <input type="text" name="email" value="" /></td>
+		                    </tr>
+		                    <tr>
+		                      <td >Address:</td>
+		                      <td>
+		                        <input type="text" name="address" value="" /></td>
+		                    </tr>
+		                    <tr>
+		                      <td >City:</td>
+		                      <td>
+		                        <input type="text" name="city" value="" /></td>
+		                    </tr>
+		                    <tr>
+		                      <td >State:</td>
+		                      <td>
+		                        <input type="text" name="state" value="" /></td>
+		                    </tr>
+		                    <tr>
+		                      <td >Zip:</td>
+		                      <td>
+		                        <input type="text" name="zip" value="" /></td>
+		                    </tr>
+		                    <tr>
+		                      <td>Country:</td>
+		                      <td>
+		                        <input type="text"  name="country" value="" /></td>
+		                    </tr>
+		                 
+		                    <tr>
+		                      <td></td>
+		                      <td>
+		                        <input type="submit" value="Register" /></td>
+		                    </tr>
+		                  </tbody>
+		                </table>
+		              </form></div></span></td>
+		      </tr>
+		    </tbody>
+		  </table>
+		  
+	  	<div id="footer_div"> 
+ 	 	
+	<h4>Copyright 2012. All rights reserved.</h4>
+	<a href="about.erb">Help</a>
+ 	<a href="mailto:esonali@gmail.com?Subject=Hello%20I%20have%20a%20query">Send Mail</a>
+    </div>
+    </div>
+  </body>
+</html>
